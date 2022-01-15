@@ -18,7 +18,7 @@ logbook-data: # contains all logbook messages. Invoke &ANCHOR with {type: logboo
   - - Gallery
     - [content/gfx/uh.png]
   - [Pagebreak]
-  - [Headline, 欢迎来到未知地平线！]
+  - [Headline, 欢迎来到胡莅桐的地平线！]
   - [Image, content/gui/images/background/hr.png]
   - '
 
@@ -56,7 +56,7 @@ logbook-data: # contains all logbook messages. Invoke &ANCHOR with {type: logboo
   - [BoldLabel, 任务：在海岸上建一间仓库。]
 
 - &LUMBERJACK
-  - [Message, 建造一个伐木工人的帐篷并把它与仓库相连。]
+  - [Message, 建造一个伐木工人的帐篷(第三排第一个)并把它与仓库相连。]
   - [Headline, 新任务：建伐木工帐篷]
   - [Image, content/gui/images/background/hr.png]
   - 物资和建筑材料已从你的船上卸下，并安全储存在你的新仓库里。现在是建造一些基本建筑的时候了，从一个伐木工人的帐篷开始。
@@ -69,320 +69,324 @@ logbook-data: # contains all logbook messages. Invoke &ANCHOR with {type: logboo
   - ''
   - 找一个树木繁茂的地区，让我们的伐木工人工作，然后从概述的建筑物列表中选择“伐木工人的帐篷”，然后把房子建好。
   - 在游戏后期，你可能想要通过植树来创造林地，但由于这需要花钱，你应该用自然时间！
-  - Any resource-gathering or production building needs a path connecting it to a Warehouse or other form of storage, otherwise the goods it produces will not be collected.
-  - So, once your Lumberjack's Tent is in position, connect it to your Warehouse by opening the Build Menu then clicking the 'Path' button. You can now click and drag with the mouse to draw the route of your path between the Lumberjack's Tent and the Warehouse.
   - ''
-  - [BoldLabel, 'Task: Build a Lumberjack''s Tent in a wooded area and connect it to your Warehouse.']
-  - Once the buildings are connected you'll see a collector arrive to pick up your newly produced boards and deliver them to the Warehouse, ready for use in construction or trade.
-  - - Gallery
-    - [content/gui/icons/buildmenu/008.png, content/gui/icons/buildmenu/015.png, content/gui/icons/resources/32/004.png]
+  - 所有的采集和生产建筑必须和仓库或其他存储物有道路连接，否则产品无法被收集。
+  - 所以，一旦你建好了伐木帐篷，就点击建筑菜单的'道路'图标，通过点击或者拖拽的方式修建一条道路来连接到仓库吧。
+  - ''
+  - [BoldLabel, '任务: 在树林里建造一座伐木工的帐篷，并和仓库相连.']
+  - 一旦咕咚你建好了它，并和仓库连起来了，就能看到木材获得增长，可以用来交易以及作为建筑材料.
+  - [Gallery, [
+       "content/gui/icons/buildmenu/008.png",
+       "content/gui/icons/buildmenu/015.png",
+       "content/gui/icons/resources/32/004.png",
+    ]]
+
 
 - &FOOD
-  - [Message, Build a Hunter's Tent and a Fisherman's Tent. Connect them to the Warehouse.]
-  - [Headline, 'NEW TASK: FOOD SUPPLY']
+  - [Message, 建造猎人住所和渔民住所，并把它们连接到仓库]
+  - [Headline, '新任务: 生产食物']
   - [Image, content/gui/images/background/hr.png]
-  - You will need to have some food-producing companies too, because people in general (and especially sailors) are very hungry.
-  - Available companies in the first tier are the Hunter's Tent and Fisherman's Tent.
-  - The hunter hunts animals in the forest, thus needs trees nearby.
-  - Note that you can place your Hunter's Tent close to the lumberjack's forest.
-  - It can happen that the animals don't reproduce fast enough or simply hide well.
-  - 'Conclusion: the Hunter''s Tent is not too reliable if you need continuous supply.'
+  - 你还需要生产食物，因为通常人们（特别是水手）会很饿.
+  - 第一阶段可以建造的食物建筑是猎人帐篷和渔民帐篷.
+  - 猎人帐篷需要建在有树木的森林里.
+  - 你可以把猎人帐篷修建在伐木工帐篷旁.
+  - 有时候动物可能藏得很好，不好捕获.
+  - '结论: 猎人帐篷可能无法提供稳定的食物来源.'
   - [Pagebreak]
   - '
 
-    The Fisher needs a coastal building site like the Warehouse and a fish school in range.'
-  - He will build a small rowing vessel and catch some fish.
-  - This is a very constant supply at the cost of a slightly longer production time per unit of food.
-  - A small settlement like yours can use both companies, and you can better balance pros and cons if you see the direct comparison.
+    渔民需要在海岸线上建立住处，并且周围要有仓库或者渔业学校.'
+  - 他会建造一条小渔船去捕鱼.
+  - 这是比打猎更稳定的食物来源，代价是获得食物的时间比较长.
+  - 作为这片土地的开拓者，你可以综合实用打猎和捕鱼.
   - ''
-  - [BoldLabel, 'Task: Build a Hunter''s Tent and a Fisherman''s Tent.']
-  - Don't forget to connect them to your Warehouse with Trails!
+  - [BoldLabel, '任务: 建一个猎人帐篷和一个渔夫帐篷.']
+  - 小咕咚，不要忘了通过铺路让它们和仓库连在一起哦!
   - - Gallery
     - [content/gui/icons/buildmenu/011_h.png, content/gui/icons/buildmenu/009_h.png, content/gui/icons/resources/32/005.png]
 
 - &MAINSQUARE
-  - [Message, Build a Main Square. Choose an area without many economy buildings.]
-  - [Headline, 新任务：中央广场]
+  - [Message, 建一个中心广场. 找一块儿没有其他建筑的空地.]
+  - [Headline, '新任务: 中心广场']
   - [Image, content/gui/images/background/hr.png]
-  - Your residents need a main square where they can fetch their goods from.
-  - This means that they need a trail connection from their home to the Main Square. Note that the Main Square acts as trail as well, therefore adjacent Tents do not need a separate Trail.
-  - All goods in your Warehouse are available at this 'market place', so your residents do not need to walk to the Fisherman's Tent or even to the Warehouse.
+  - 你的居民需要一个中心广场，从那里他们获得食物.
+  - 这意味着居民房和中心广场之间需要铺路，注意，中心广场本身也能通行，所以广场旁边的民房自动连接.
+  - 居民从广场可以获得所有商品，不需要直接去找渔民他们。
   - - Gallery
     - [content/gui/icons/buildmenu/004_h.png]
-  - You should avoid placing your main settlement tents too close to your lumberjacks because building tents will clear away the trees that your lumberjack needs to produce boards.
-  - Companies work without being connected to the tents, so you don't need to build a road between the Main Square and e.g. your Lumberjack's Tent.
+  - 你最好别在伐木工帐篷附近建造民居，这样会破坏森林，影响木材产出
+  - 生产建筑也不需要和中心广场相连接，他们自己就可以工作。
   - ''
-  - [BoldLabel, 任务：建造一个中央广场。]
+  - [BoldLabel, '任务: 建立一个中心广场.']
   - [Pagebreak]
   - '
 
-    Now let''s have a closer look at the Main Square.'
+    现在，让我们近距离看看这个广场.'
   - - Gallery
     - [content/gui/icons/tabwidget/warehouse/account_a.png]
-  - In the 'Account' tab you get a balance sheet of this island, featuring all costs you pay and all taxes you earn.
-  - The items 'Sale' and 'Buy' refer to your trading balance and will be explained later on.
-  - If your balance is positive, you all-in-all make a profit.
+  - 在 'Account' 你能看到这个岛上的财务情况，你花的钱和收的税.
+  - 选项 'Sale' 和 'Buy' 表示你的交易情况，之后再介绍.
+  - 如果你的收支为正，表示你赚钱了.
   - - Gallery
     - [content/gui/icons/tabwidget/mainsquare/inhabitants0_a.png]
-  - In the different tier overview tabs you can see statistics about your inhabitants. You also set the tier-specific global tax here and allow or deny inhabitants of this tier to upgrade to the next higher one.
+  - 在不同层级的页面里，还可以看到你的居民分析. 你还可分阶层设定税率，并且决定是否允许居民升级.
 
 - &FIRSTTENT
-  - [Message, Build a Tent and connect it to the Main Square if necessary.]
-  - [Headline, 新任务：居民区的建筑]
+  - [Message, 建一个居民帐篷，并连接到中心广场.]
+  - [Headline, '新任务: 居民帐篷建设']
   - [Image, content/gui/images/background/hr.png]
-  - Settlers want to have a roof over their heads, else they won't even think of living in your city! You need to provide tents.
+  - 定居者希望能有个避风挡雨的地方，不然他们可不想留在你的城市，所以给他们建帐篷吧.
   - - Gallery
     - [content/gui/icons/buildmenu/003_h.png]
-  - Tents are the basic residential buildings. Your inhabitants will want to upgrade it when they reach higher tiers.
-  - Note that the upgrade of each building requires construction material, like wood for their first upgrade.
-  - Consider to disable the upgrade if your stock of these materials is low.
-  - Settlers may not look very useful since they will try to consume all goods you produce - but they at least pay taxes, and that's the only way you can make money for now!
+  - 帐篷是最基础的居住建筑，你的居民升级后也会想要升级帐篷.
+  - 帐篷升级时需要不同材料，比如升第一级就需要木板.
+  - 如果你的库存资源比较紧张，可以禁止他们升级帐篷.
+  - 居民总是在消耗资源，看上去不太有用，但他们至少在纳税, 这是你赚钱的唯一途径!
   - ''
-  - [BoldLabel, 'Task: Build a Tent and connect it to the Main Square if necessary. Tents don''t need to be connected to any of the companies.']
+  - [BoldLabel, '任务: 修建居民帐篷并和中心广场连起来，不需要连到其他工厂.']
 
 - &MORETENTS
-  - [Message, Build at least three additional Tents and connect them to the Main Square.]
-  - '
+  - [Message, 再建造至少3个民居帐篷，并把它们连接到中心广场.]
+  - |
 
-    Let''s have a look at the Tent overview tab.'
-  - 'You can see
+    让我们看看居民帐篷的总结页面，你能看到.
+    * 居民的快乐程度,
 
-    * the happiness of these residents,
+    * 居民的缴税情况，
 
-    * the taxes they pay and
-
-    * the resources they demand.'
-  - If their demands are fulfilled, happiness and thus your tax income increase.
-  - If not, happiness and income decrease. At some time your residents may get really sour and simply turn their back on your village, leaving behind a decaying ruin.
-  - Note that you can also change the global tax settings here, too.
+    * 居民需要的资源.
+  - |
+  - 如果居民的资源需求满足了，居民的快乐度和纳税额就会增加.
+  - 否则他们就不会快乐，税收也会减少，最后他们会背叛，离开，留下荒废的村庄
+  - 注意，作为管理者，你也可以调整全局的税率.
   - ''
-  - [BoldLabel, 'Task: Build at least three additional Tents.']
+  - [BoldLabel, '任务: 再建造至少3个居民帐篷.']
   - '
 
-    TIP: Holding down SHIFT eases constructing multiple buildings of the same kind.'
+    TIP: 按下SHIFT 可以一次性拆除所有同类的建筑.'
 
 - &SIGNALFIRE
-  - [Message, Build a Signal Fire at the coast close to your Warehouse.]
-  - [Headline, 新任务：建造烽火]
+  - [Message, "在你的仓库旁建造一个信号火."]
+  - [Headline, '新任务: 建造一个信号火']
   - [Image, content/gui/images/background/hr.png]
-  - Can you see the ship passing your island from time to time? That ship belongs to the Free Trader, one of the first settlers in this archipelago.
-  - The trader will supply your settlement with necessary goods which you can't produce yet.
-  - You can also sell surpluses of your production, but in general consuming them (by building more Tents) instead of selling them yields more profit.
-  - Normally the trader just sails around and looks for deals, but you can speed things up a bit.
+  - 你看到那些经过你的小岛的船么，他们属于一个自由贸易体，是群岛的第一批居民.
+  - 这些商船可以给你提供一些你的小岛还不能生产的商品.
+  - 你可把剩余的产品卖掉，但大多数情况下，你还是可以建更多的居民帐篷，增加人口来消耗多余资源.
+  - 通常海上的商船是随机来的，但你可以让他们来得多一点
   - - Gallery
     - [content/gui/icons/buildmenu/006_h.png]
-  - For this purpose, build a Signal Fire at the coast near your Warehouse. It will show ships the way to your settlement.
-  - The Signal Fire has to cover the area which the ships pass through to catch them.
+  - 为了吸引商船，可以在海岸仓库旁边建造一个信号火，表示这里有定居点
+  - 信号火可以吸引它照射范围内的商船.
   - [Pagebreak]
   - '
 
-    After this little advertisement, the trader will also stop by and look into your Warehouse, even if he had planned to sail past it.'
-  - You can propose deals via the Warehouse tab "Buy/Sell".
+    有了这个广告效果，路过的商船就可能停下来看看你的仓库里有些什么'
+  - 你可以用仓库建筑的选项 "Buy/Sell"来进行贸易.
   - - Gallery
     - [content/gui/icons/tabwidget/warehouse/buysell_a.png]
-  - At the 'sailors' tier, you are equipped with three trading slots.
-  - Click on the small icon to change the slot mode from 'Buy' to 'Sell' and vice versa.
-  - Click in the slot to choose the good you want to trade with. We will further explain this once you are ready to trade.
+  - 在航行者等级，你有3个交易槽，同时可以处理3个交易.
+  - 点击图表去切换 'Buy' 和 'Sell' .
+  - 点击交易槽去选择要交易的物品。等你准备好交易，我们再解释.
   - ''
-  - [BoldLabel, 'Task: Build a Signal Fire at the coast close to your Warehouse.']
+  - [BoldLabel, '任务: 在海岸上靠近你仓库的地方建造一座信号火.']
 
 - &TRADING
-  - [Message, Reach an island stock of at least 30 tools. Note that this might take a while.]
-  - [Headline, 新任务：学贸易]
+  - [Message, "让岛上仓库库存至少30个工具，这需要一点时间"]
+  - [Headline, '新任务: 学会交易']
   - [Image, content/gui/images/background/hr.png]
-  - 'Excellent! The Free Trader will now stop by at your Warehouse from time to time.
+  - |
+    太棒了! 现在交易商船会经常在你的小岛停留.
 
-
-    Let''s continue our tutorial on how to trade.'
-  - First click on your own Warehouse and click on the third tab.
-  - Then click on one of the 3 slots, then select a good you want to buy or sell.
-  - After selecting a particular type of good, the green bar across the bottom of the slot (if visible) shows you how much you have in stock of this good.
-  - Dragging the slider on the right of each slot determines your 'target value' which has a different meaning on 'Buy' and 'Sell'.
-  - When buying, you will buy sufficient to hold your 'target value' in stock.
-  - When selling, the 'target value' is the stock amount at which you will always stop selling until you get more of that resource again.
+    让我们继续交易教学。
+  - 首先点选你的仓库，并点击第三个标签
+  - 点选三个贸易槽之一，选择你想要交易的货物.
+  - 当选择了要交易的货物，下面的绿色条会显示当前该货物的库存.
+  - 拖动交易槽右边的滚动条，确定目标交易量，这个量根据买卖不同.
+  - 如果选择购买(buy),会一直交易直到库存到达这个数量.
+  - 如果选择卖出(sell),那么一旦库存少于这个值，就停止交易，直到有更多货物被生产出来
   - [Pagebreak]
-  - '
+  - |
+    举例来说:
 
-    For example:
+    选择了 ''Buy'' 并且你有 5 吨货物, 把滚动条设为 9 吨，那么你最多会买4吨的货物.'
+  - 卖出的操作类似. 选 'Sell' 操作 ，仓库里有18吨货，滚动条为 13吨，那么会卖出5吨货.
+  - 如果商船只是买卖一部分货物，你还是得让他们自由离开，等他们下次再来.
+  - '未知大陆游戏有个智能定价机智，所以商品价格是会变化的.
 
-    Having a ''Buy'' slot and 5 tons in stock, a slider positioned at 9 tons will cause you to buy 4 additional tons at most.'
-  - Selling works similarly. A 'Sell' slot with 18 tons in stock and the slider positioned at 13 will sell up to 5 tons.
-  - If the Free Trader however only wants to buy or sell less than your settings would allow him, you need to live with that and wait for him to return.
-  - 'Unknown Horizons features smart pricing, so the value of one unit can vary.
+    不能手动更改货物价格!'
+  - 你可以在 'Account' 页查看你的贸易情况并和买入，卖出的数据做对比.
+  - |
 
-    It is NOT possible to change prices manually!'
-  - You can see your trade balance in the 'Account' tab comparing the 'Sale' and 'Buy' values there.
-  - ''
-  - [BoldLabel, 'Task: Buy as many tools as you need to have 30 tools in stock!']
+  - [BoldLabel, '任务: 卖尽可能多的工具，让你的仓库里有30个工具!']
   - - Gallery
     - [content/gui/icons/resources/32/006.png]
 
 - &PAVILION
-  - [Message, Build a Pavilion with connection to the Tents.]
-  - [Headline, 新任务：建造一个帐篷]
+  - [Message, 修建一座神庙并且连接居民帐篷.]
+  - [Headline, '新任务: 修建一座神庙']
   - [Image, content/gui/images/background/hr.png]
-  - Those tools will be enough for the moment. Well done!
-  - You now provide housing, a main square and food to your inhabitants.
-  - 'Still there is one demand which we have not satisfied so far (you may check that by clicking on any Tent): your sailors want a basic building where they can pray.'
-  - The solution is a Pavilion which the village parson quickly puts up as shelter from the sun.
-  - Service buildings like this also need to be connected to the Tents with a Trail, else your inhabitants feel unable to reach them.
+  - 工具一会儿就充足了，干得漂亮！
+  - 现在，你给居民们提供了房子，中心广场和食物
+  - '还有一些事没有被满足 (点击任意民居可查看): 水手们需要一个可以做祈祷的地方'
+  - 解决方案是一个亭子，村里的牧师很快就搭起了一个遮阳的亭子。
+  - 像这样的服务建筑也需要通过小道连接帐篷，否则你的居民无法到达。
   - [Pagebreak]
   - '
 
-    Note that faith is treated like a physical resource!'
-  - This means that your inhabitants need a road connection to the producer (Pavilion) to pick up faith there.
-  - After some time, they will have consumed it and then again look for a producer to collect more faith.
-  - 'Important:
+    注意信仰也被当做一种商品'
+  - 所以居民需要一条路去连接生产者 (神庙) 来获得信仰.
+  - 经过一段时间，他们就会消耗掉信仰，需要再次获得.
+  - '重要:
 
-    It is NOT enough that the building is merely within a certain range of the Tents.
+    神庙在居民帐篷附近，这是不够的，
 
-    The road connection is required as well.'
+    必须有路把它们连起来.'
   - ''
-  - [BoldLabel, 'Task: Build a Pavilion with a Trail to the Tents in order to fulfill your sailors'' demand for faith.']
+  - [BoldLabel, '任务: 修建一座神庙和民居帐篷连在一起，让人们可以获得信仰']
   - - Gallery
     - [content/gui/icons/buildmenu/005.png]
 
 - &NEXTTIER
-  - [Message, Set the tax level to Low (left end) and wait for your sailors to upgrade.]
-  - [Headline, 'NEW TASK: NEXT TIER']
+  - [Message, 将税率设到最低 (最左边) 等待你的水手们升级.]
+  - [Headline, '新任务: 下一层']
   - [Image, content/gui/images/background/hr.png]
-  - All demands are fulfilled now if your inhabitants can regularly visit the Main Square and the Pavilion and your food supply is adequate.
-  - If the sailors are happy enough, they want to advance to the next tier called Pioneers.
-  - To make them happy, there is nothing else for you to do but setting taxes to a lower level since you have fulfilled all the demands of your inhabitants.
-  - You should try to not always run on low taxes since this will probably lead to bankruptcy sooner or later. For a period of time and if you know what you are doing, it is fine though.
-  - After some time, the first unit should walk to the Main Square and have a look for new construction material there to build a log house. This house will replace the old tent.
+  - 所有的需求都达成了，你的居民可以经常访问中心广场，神庙，食物供应充足
+  - 当水手们很开心时，他们就能升入下一级，拓荒者
+  - 为了让他们更开心，降税是个好办法
+  - 你也不能长期保持太低的税率，不然可能破产。如果你清楚在做什么，那么调节一下税率是可以的
+  - 过一会儿，就会有人去广场寻找材料，建造小木屋来替代帐篷
   - [Pagebreak]
   - '
 
-    Such residential upgrades cost resources and can thus be restricted at the Main Square.'
-  - There also are upgrades of buildings without costs, as you will see with the lumberjack. In this case, only the graphics change.
-  - Upgraded housing accomodates more inhabitants, and pioneers pay more taxes than sailors, too.
-  - As you may have figured out already, the downside is that pioneers demand additional goods which sailors do not need - so you will need to spend this extra money to make them happy as well.
+    这种升级是会消耗资源的，所以也可以在中心广场里禁止掉.'
+  - 有一些建筑升级不需要消耗资源，比如伐木屋，只是该了外观
+  - 居民房升级可以容纳更多人，而且拓荒者比水手交税多.
+  - 负面效果是拓荒者比水手消耗更多资源，你需要花更多钱让他们高兴.
   - ''
-  - [BoldLabel, 'Task: Set the tax level to Low (left end) and wait for sailors to upgrade.']
+  - [BoldLabel, '任务: 把税率设为最低，然后等水手升级.']
   - - Gallery
     - [content/gfx/buildings/pioneers/residential/as_hut0/idle/45/0.png]
 
 - &FARM
-  - [Message, Build a Farm and keep some empty space around it.]
-  - [Headline, 新任务：建造一个农场]
+  - [Message, 建造一个农场并在它四周留些空间.]
+  - [Headline, '新任务: 建造一座农场']
   - [Image, content/gui/images/background/hr.png]
-  - Congratulations! Some of your inhabitants have reached tier II!
-  - Now you have access to new buildings, take a look at the Build menu again.
+  - 恭喜!你的一些水手已经升级到第二级！
+  - 你可以建一些新东西了，看看你的建筑菜单.
   - - Gallery
     - [content/gui/icons/tabwidget/buildmenu/tier/tier2_u.png]
-  - A shiny new tab appeared there.
-  - Pioneers will demand cloth, so you need to set up a production line for cloth starting with lambs wool (which is one of the goods produced at the Farm).
-  - The Farm is a very special production building since it can produce not only one, but many (and different) goods if you choose.
-  - The output of Farms depends on what kind of fields you build around it.
+  - 出现了一个发光的新页面.
+  - 拓荒者需要衣服，因此需要原料羊毛(这是农场的产出物之一).
+  - 农场是很特别的，它可以生产很多产品.
+  - 农场的产出物取决于你在农场旁边建的建筑类型.
   - [Pagebreak]
   - '
 
-    We will have a closer look at this later.'
-  - Farms, like all companies producing raw materials, do not necessarily need to be connected to storage or a Warehouse.
-  - As long as units of the final production company can reach the Farm, and collectors from the Warehouse or Storage Tent can reach the final company everything's fine.
-  - If you, however, plan to do some processing on different parts of the island (which can make sense) or even on different islands, you will need a connection to collectors.
-  - Try to build the Farm not too close to the coast or your existing buildings since it will need some space around it to work well.
+    我们今后会详细说明.'
+  - 农场和其他生产原材料的工厂一样，不需要连接到仓库.
+  - 只要最终生产公司可以到达农场，并且从仓库或存储帐篷可以到达最终公司，一切都没问题.
+  - 但是，如果您计划在岛屿的不同部分(这是有意义的)甚至不同的岛屿上进行处理，那么您将需要连接到收集器。
+  - 尽量不要把农场建得太靠近海岸或你现有的建筑，因为它需要一些周围的空间。
   - ''
-  - [BoldLabel, 任务：建造一个农场。]
+  - [BoldLabel, '任务: 建造农场.']
   - - Gallery
     - [content/gui/icons/buildmenu/020.png]
 
 - &FIELDS
-  - [Message, Build at least one pasture and add potato fields if you like.]
-  - [Headline, 'NEW TASK: BUILD FIELDS']
+  - [Message, 建造至少一块牧场或者土豆田.]
+  - [Headline, '新任务: 建造田地']
   - [Image, content/gui/images/background/hr.png]
-  - The Farm itself is not going to produce anything without some fields.
-  - You currently have the choice between pastures, potato and sugar fields.
-  - 'Let''s have a short overview:
+  - 没有田地，农场自己是不会生产任何东西的.
+  - 现在你需要选择建造牧场，土豆田或者甘蔗田.
+  - '我们做一个简短的总结:
 
-    * Pasture: Sheep live here, producing lamb wool.
+    * 牧场(Pasture): 绵阳生活的地方，产羊毛.
 
-    * Potato Field: Grows potatoes which are currently treated as food.
+    * 土豆田(Potato Field): 生产土豆，是一种食物.
 
-    * Sugar Field: Grows sugar which is used to distill liquor and (later) produce confectionery.'
-  - We now only need pastures, but in case your food supply chain is too small (maybe many residential buildings) you can also produce some potatoes.
-  - Note that for potatoes you will need a road connection to the Farm (not to the field!), as it will be the only company to work on the goods.
+    * Sugar Field: 甘蔗田，种植用于蒸馏酒和(后来)生产糖果的糖。'
+  - 我们现在只需要牧场，但如果你的食物供应链太小(可能很多住宅建筑)，你也可以生产一些土豆。
+  - 注意，对于土豆田，您将需要一个连接到农场的道路(不是到田地!)，因为它将是唯一的公司工作的货物。
   - [Pagebreak]
   - '
 
-    Make sure that all fields you build are in the area covered by the Farm.'
-  - You can have combined production - one pasture will not lead to 100 percent efficiency of the Farm - but you need to check how many fields one Farm can serve.
-  - Different classes of fields require the farm units to spend more or less time there (to seed, harvest, herd, etc…) and because of that, the farm may be unable to serve all of the fields you built for it in time.
-  - For now, you do not need to care about these issues a lot since you haven't built any fields. Let's change that!
+    确保你建造的所有田地都在农场所覆盖的区域内.'
+  - 你可以将生产结合起来，一块牧场不会带来农场100%的利用率——但你需要检查一个农场可以服务多少块田地。
+  - 不同类型的土地要求农场花费或多或少的时间(播种、收获、放牧等)，因此，农场可能无法及时为所有你建造的土地提供服务。
+  - 现在，您不需要过多地关注这些问题，因为您还没有建造任何土地。让我们开始!
   - ''
-  - [BoldLabel, 'Task: Build at least one Pasture in the Farm''s range and add Potato Fields if you like.']
+  - [BoldLabel, '任务: 建造至少一块牧场，如果你愿意，再加一块土豆田']
   - - Gallery
     - [content/gui/icons/buildmenu/018.png, content/gui/icons/buildmenu/019.png]
 
 - &STORAGE
-  - [Message, Build a storage tent (tier I tab) where it makes sense.]
-  - [Headline, 新任务：建造存储]
+  - [Message, 在合理的地方建造一个存储帐篷.]
+  - [Headline, '新任务: 新建存储帐篷']
   - [Image, content/gui/images/background/hr.png]
-  - Did you watch your lumberjack recently?
-  - Since your Warehouse does not have unlimited space to store goods, collectors will stop fetching goods from companies when stock is full.
-  - So if no sailors recently wanted to upgrade their tents, you probably have a lot of boards and in that case, the lumberjack may idle.
-  - We can improve this situation in two different ways, and we will have a look at both of them below.
-  - 'All companies offer to do no work at all.
+  - 你最近有注意到你的伐木工厂么?
+  - 由于您的仓库没有无限的空间来存储货物，当库存满时，收货人将停止从公司取货。
+  - 因此，如果最近没有水手想要升级他们的帐篷，你可能有很多木板，在这种情况下，伐木工人可能会闲置。
+  - 我们可以用两种不同的方法来改善这种情况，我们将在下面对这两种方法进行说明。
+  - '所有公司都停止工作了.
 
-    This may sound strange, but click on the gear wheel you see in the Lumberjack Hut''s overview.'
-  - If this 'break' mode is enabled (we call it 'Decommissioning'), the running costs you pay for the building will decrease. They won't be zero, but still lower than if you keep the company producing.
+    这可能听起来很奇怪，但点击你在伐木工人小屋的齿轮会看到说明。'
+  - 如果启用了这种“中断”模式(我们称之为“退役”)，你为建筑支付的运行成本就会降低。它们不会是零，但仍然比你保持公司生产的情况下要低。
   - - Gallery
     - [content/gui/icons/templates/production/toggle_inactive_h.png]
   - [Pagebreak]
   - '
 
-    This means that you can save money when you temporarily do not need a company and do not want to tear it down, either.'
-  - 'Another solution is to build the last tier-I building which has not been mentioned so far: the Storage Tent.'
-  - 'This building has two purposes. It:
+    这意味着，当你暂时不需要一家公司，也不想把它拆了的时候，你可以省钱.'
+  - '另一个解决方案是建造到目前为止还没有提到的第一页的最后一个一级建筑:存储帐篷.'
+  - '这个建筑有两个目的，它们可以:
 
-    * Offers more storage for your goods, and
+    * 给你的产品提供更多的存储空间
 
-    * sends its own collectors to fetch goods, just like the Warehouse does.'
-  - Note that companies can also be connected to a storage in order to get their products collected, and if the Warehouse is overwhelmed with collector tasks, you can place a Storage Tent to help out there.
+    * 存储帐篷有自己的提货员，可以派出去提货.'
+  - 请注意，公司也可以连接到存储帐篷，以便收集他们的产品，如果仓库被收集任务压得喘不过气来，您可以放置一个存储帐篷来帮助收集。
   - ''
-  - [BoldLabel, 'Task: Build a Storage Tent, preferably where you need collectors.']
+  - [BoldLabel, '任务: 建造一个存储帐篷, 最好是在你需要收集货物的地方.']
   - - Gallery
     - [content/gui/icons/buildmenu/002.png]
 
 - &WEAVER
-  - [Message, Build a Weaver's Hut that can somehow reach the wool of your Farm.]
-  - [Headline, 'NEW TASK: BUILD A WEAVER']
+  - [Message, 修建一个纺织厂，连到你的农场]
+  - [Headline, 'NEW TASK: 修建一个纺织厂']
   - [Image, content/gui/images/background/hr.png]
-  - Now the wool production is set up, you still need a weaver to produce cloth out of this wool.
-  - The Weaver's Hut is the place where the weaver lives. There are two spots where you can build it - either close to the Farm or close to a Storage Tent (or the Warehouse).
-  - In both cases you should ensure the connection to a Trail as well.
-  - You can place the Weaver's Hut close to the Farm and tear down any Trail to the Farm to see that it will still fetch the wool and produce.
+  - 现在羊毛生产已经建立起来了，你仍然需要一个纺织厂用这些羊毛生产布料。
+  - 纺织厂是纺织工住的地方。你可以在两个地方建造它——要么靠近农场，要么靠近储藏帐篷(或者仓库)。
+  - 两种情况下，都要记得用道路联通
+  - 你可以把纺织厂建在农场附近，然后拆掉通往农场的小道，看看它是否还能收羊毛和生产。
   - ''
-  - [BoldLabel, 'Task: Build a Weaver''s Hut positioned so it can get wool.']
+  - [BoldLabel, '任务: 建立一个纺织厂，让它可以收集羊毛.']
   - - Gallery
     - [content/gui/icons/buildmenu/007.png]
 
 - &GOALS
-  - [Message, House a total of 50 or more inhabitants in your city to complete the tutorial. You need a positive balance.]
-  - [Headline, 'NEW TASK: COMPLETE TUTORIAL']
+  - [Message, 让你的城市拥有50人以上，以完成本次教学.]
+  - [Headline, '新任务: 完成教学']
   - [Image, content/gui/images/background/hr.png]
-  - Try to house a total of 50 or more inhabitants in your city by providing more residential buildings.
-  - Once you are able to keep an economy running which can satisfy this amount of consumers, you are ready to discover new Unknown Horizons!
-  - You also need enough money to keep this economy running, so a positive balance (check in the Warehouse tab 'Account') is required.
+  - 通过提供更多的住宅建筑，尝试在你的城市中容纳50个或更多的居民。
+  - 一旦你能够保持经济运行，以满足这一数量的居民，你就已经发现了新的未知的地平线!
+  - 你还需要足够的钱保持经济运行，所有一个正向的收支 (查看仓库的 'Account'页面) 是必须的
   - ''
-  - [BoldLabel, 'Task: Reach a total number of 50 inhabitants and a positive balance to complete this tutorial.']
+  - [BoldLabel, '任务: 人口达到50，且获得一个正向收支，完成本次教学.']
   - - Gallery
     - [content/gui/icons/widgets/cityinfo/inhabitants.png]
 
 - &WON
-  - [Message, Congratulations! You have reached the end of this tutorial and are ready to meet new challenges!]
-  - [Headline, NO TASKS LEFT]
+  - [Message, 恭喜你!您已经完成了本教程的学习，并准备迎接新的挑战!]
+  - [Headline, 没有更多的任务了]
   - [Image, content/gui/images/background/hr.png]
-  - You have successfully completed all tasks that were handed to you. The world is now at your command, waiting for your free aspirations and brave explorations!
-  - 'If you have any suggestions on what we could or should improve, add or leave out:'
+  - 你成功地完成了交给你的所有任务。世界现在由你掌控，等待你的自由抱负和勇敢的探索!
+  - '如果您对我们可以或应该改进的地方有任何建议，请添加或删除:'
   - www.unknown-horizons.org
   - '#unknown-horizons @ irc.freenode.net'
   - team@unknown-horizons.org
-  - Our forums are open to you as well!
-  - The best results until now were achieved by joining our IRC channel, so you could try that out first (-;
+  - 我们的论坛也为你敞开
+  - 到目前为止，最好的结果是通过加入我们的IRC频道获得的，所以你可以先尝试一下 (-;
   - [Pagebreak]
-  - [Headline, 谢谢！]
+  - [Headline, 谢谢!]
   - [Image, content/gui/images/background/hr.png]
   - '
 
@@ -390,7 +394,7 @@ logbook-data: # contains all logbook messages. Invoke &ANCHOR with {type: logboo
 
 
 
-    Thanks for playing the tutorial!
+    谢谢你玩这个教学!
 
 
     Your UH-Team'
@@ -657,4 +661,4 @@ metadata:
   locale: zh_CN
   mapfile: development.sqlite
   original: content/scenarios/tutorial_en.yaml
-  translation_status: 38 translated messages, 150 untranslated messages.
+  translation_status: 25 translated messages, 163 untranslated messages.
